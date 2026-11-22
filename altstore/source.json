@@ -1,0 +1,39 @@
+{
+  "name": "VALLEY",
+  "identifier": "me.valleyapp.source",
+  "subtitle": "VALLEY for iPhone and iPad",
+  "description": "Official VALLEY source. Add it to AltStore or SideStore to install and update VALLEY.",
+  "iconURL": "https://raw.githubusercontent.com/valleyapp/ValleyMobie/main/altstore/icon.png",
+  "website": "https://github.com/valleyapp/ValleyMobie",
+  "apps": [
+    {
+      "name": "VALLEY",
+      "bundleIdentifier": "com.valleyapp.me",
+      "developerName": "VALLEY",
+      "subtitle": "Movies and series",
+      "localizedDescription": "VALLEY for iPhone and iPad: your library, continue watching, Trakt and MDBList sync.",
+      "iconURL": "https://raw.githubusercontent.com/valleyapp/ValleyMobie/main/altstore/icon.png",
+      "tintColor": "7C6CF0",
+      "category": "entertainment",
+      "versions": [
+        {
+          "version": "0.0.3",
+          "buildVersion": "3",
+          "date": "2026-11-22",
+          "downloadURL": "https://github.com/valleyapp/ValleyMobie/releases/download/0.0.3/VALLEY-0.0.3-.ipa",
+          "localizedDescription": "Sections follow the app language, cleaner loading screen, no debug logs.",
+          "size": 19156971,
+          "minOSVersion": "15.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSPhotoLibraryUsageDescription": "Choose a profile picture.",
+          "NSCameraUsageDescription": "Scan an add-on QR code."
+        }
+      }
+    }
+  ],
+  "news": []
+}
